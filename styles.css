@@ -1,0 +1,115 @@
+body {
+    background-color: rgba(255, 228, 196, 0.582);
+}
+
+header {
+    margin-bottom: 50px;
+    background-color: burlywood;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    background-color: burlywood;
+    padding: 10px 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav section {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+nav section img {
+    margin-right: 10px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(73, 72, 72);
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 20px; 
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 228, 196, 0.8); 
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+main h1 {
+    margin-bottom: 80px;
+}
+
+main section {
+    display: flex;
+    justify-content: space-between;
+}
+
+main section div {
+    margin-inline: 40px;
+}
+
+main section div section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: burlywood;
+    padding: 20px;
+    padding-bottom: ;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(214, 135, 31); /* Match the theme color */
+    color: white;
+    border: none;
+    border-radius: 20px; /* Add rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for background color and transform */
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: rgba(255, 228, 196, 0.8); /* Change background color on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+footer ul li {
+    margin-right: 20px;
+}
+
+footer ul li a {
+    color: rgb(73, 72, 72);
+    text-decoration: none;
+}

@@ -1,0 +1,140 @@
+body {
+    background-color: rgba(255, 228, 196, 0.582);
+}
+
+header {
+    margin-bottom: 50px;
+    background-color: burlywood;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: burlywood;
+    padding: 10px 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav section {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+nav section img {
+    margin-right: 10px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(73, 72, 72);
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 228, 196, 0.8);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+h1{
+    margin-top: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border: 10px;
+}
+
+table, th, td {
+    border: 1px solid #000000;
+    
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(226, 169, 93);
+    color: white;
+}
+
+#separator {
+    border-left: 1px solid gray;
+    height: auto;
+    margin: 0 20px;
+}
+
+form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 2%;
+}
+
+label, input, button {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(226, 169, 93);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(255, 228, 196, 0.8);
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    margin-right: 20px;
+}
+
+footer ul li a {
+    color: rgb(73, 72, 72);
+    text-decoration: none;
+}
