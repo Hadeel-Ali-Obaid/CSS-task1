@@ -1,0 +1,40 @@
+.navbar{
+    background-color: burlywood;
+}
+
+nav div form{
+    margin-right: 20px;    
+}
+
+nav div a{
+    margin-left: 20px;    
+}
+
+#header {
+    margin-top: 120px;
+    margin-left: 50px;
+}
+
+body {
+    background-color: rgba(255, 246, 235, 0.582);
+}
+
+main > div {
+    padding-inline: 50px;
+    padding-block: 40px;;
+}
+
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+img {
+    filter: sepia(0.3) hue-rotate(1deg) saturate(3) brightness(0.95);
+  }
+
+#form {
+    padding-top: 100px;
+    padding-inline:50px; 
+    margin-bottom: 70px;
+}
